@@ -242,10 +242,12 @@ const styles = StyleSheet.create({
   tabText: {
     // fontFamily: theme.fontFamily.semiBold,
     fontSize: 12,
-    color: 'black'
+    color: 'black',
+    paddingTop: 5
   },
   activeTabText: {
     fontSize: 22,
+    paddingTop: 0
     // fontFamily: theme.fontFamily.bold
   }
 });

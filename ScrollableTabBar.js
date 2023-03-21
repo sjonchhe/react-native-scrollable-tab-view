@@ -33,7 +33,7 @@ const ScrollableTabBar = createReactClass({
     renderTab: PropTypes.func,
     underlineStyle: ViewPropTypes.style,
     onScroll: PropTypes.func,
-    activeTabTextStyle: any
+    activeTabTextStyle: TextPropTypes.style
   },
 
   getDefaultProps() {
